@@ -1,0 +1,214 @@
+{
+  "generated_at": "2026-08-18T12:50:13.835911+00:00",
+  "base_url": "http://mac-tkb.home.arpa:11434",
+  "repeats": 1,
+  "documents": [
+    "d01",
+    "d05"
+  ],
+  "raw": [
+    {
+      "model": "qwen3.6:35b-a3b",
+      "info": {
+        "family": "qwen35moe",
+        "parameter_size": "36.0B",
+        "quantization": "Q4_K_M",
+        "capabilities": [
+          "completion",
+          "vision",
+          "tools",
+          "thinking"
+        ]
+      },
+      "repeats": 1,
+      "total_wall_s": 557.5,
+      "runs": [
+        [
+          {
+            "doc_id": "d01",
+            "variant": "print",
+            "stages": {
+              "ocr_check": {
+                "wall_s": 86.31,
+                "prompt_tokens": 568,
+                "eval_tokens": 887,
+                "eval_s": 85.626,
+                "load_s": 0.174,
+                "tokens_per_s": 10.36,
+                "error": null
+              },
+              "classify": {
+                "wall_s": 34.48,
+                "prompt_tokens": 951,
+                "eval_tokens": 1859,
+                "eval_s": 33.512,
+                "load_s": 0.18,
+                "tokens_per_s": 55.47,
+                "error": null,
+                "predicted": {
+                  "correspondent": "Stadtwerke Hallwil",
+                  "document_type": "Rechnung",
+                  "tags": [
+                    "finanzen",
+                    "wohnen"
+                  ]
+                }
+              },
+              "metadata": {
+                "wall_s": 83.31,
+                "prompt_tokens": 468,
+                "eval_tokens": 878,
+                "eval_s": 81.506,
+                "load_s": 0.453,
+                "tokens_per_s": 10.77,
+                "error": null,
+                "predicted": {
+                  "title": "Stromabrechnung 2. Quartal 2026 der Stadtwerke Hallwil",
+                  "created": "2026-07-04"
+                }
+              }
+            },
+            "scores": {
+              "ocr_check_correct": 1.0,
+              "correspondent_correct": 1.0,
+              "document_type_correct": 1.0,
+              "tag_f1": 1.0,
+              "date_correct": 1.0,
+              "title_f1": 0.8
+            },
+            "failed": null
+          },
+          {
+            "doc_id": "d05",
+            "variant": "hand",
+            "stages": {
+              "ocr_check": {
+                "wall_s": 28.331,
+                "prompt_tokens": 534,
+                "eval_tokens": 1945,
+                "eval_s": 27.628,
+                "load_s": 0.194,
+                "tokens_per_s": 70.4,
+                "error": null
+              },
+              "vision_ocr": {
+                "wall_s": 92.357,
+                "prompt_tokens": 2244,
+                "eval_tokens": 659,
+                "eval_s": 87.323,
+                "load_s": 0.402,
+                "tokens_per_s": 7.55,
+                "error": null
+              },
+              "classify": {
+                "wall_s": 13.864,
+                "prompt_tokens": 882,
+                "eval_tokens": 919,
+                "eval_s": 12.994,
+                "load_s": 0.191,
+                "tokens_per_s": 70.73,
+                "error": null,
+                "predicted": {
+                  "correspondent": "Musikschule Talgrund",
+                  "document_type": "Kontaktliste",
+                  "tags": [
+                    "bildung",
+                    "freizeit"
+                  ]
+                }
+              },
+              "metadata": {
+                "wall_s": 218.864,
+                "prompt_tokens": 399,
+                "eval_tokens": 1853,
+                "eval_s": 215.508,
+                "load_s": 0.199,
+                "tokens_per_s": 8.6,
+                "error": null,
+                "predicted": {
+                  "title": "Kontaktliste Blockflötengruppe Mittwoch",
+                  "created": "2026-08-12"
+                }
+              }
+            },
+            "scores": {
+              "ocr_check_correct": 1.0,
+              "cer": 0.0,
+              "wer": 0.0,
+              "correspondent_correct": 1.0,
+              "document_type_correct": 1.0,
+              "tag_f1": 1.0,
+              "date_correct": 1.0,
+              "title_f1": 1.0
+            },
+            "failed": null
+          }
+        ]
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "model": "qwen3.6:35b-a3b",
+      "info": {
+        "family": "qwen35moe",
+        "parameter_size": "36.0B",
+        "quantization": "Q4_K_M",
+        "capabilities": [
+          "completion",
+          "vision",
+          "tools",
+          "thinking"
+        ]
+      },
+      "documents_total": 2,
+      "documents_ok": 2,
+      "documents_failed": 0,
+      "failures": [],
+      "accuracy": {
+        "ocr_check_correct": 1.0,
+        "cer": 0.0,
+        "wer": 0.0,
+        "correspondent_correct": 1.0,
+        "document_type_correct": 1.0,
+        "tag_f1": 1.0,
+        "date_correct": 1.0,
+        "title_f1": 0.9
+      },
+      "speed": {
+        "wall_s_per_document_mean": 278.76,
+        "total_wall_s": 557.5,
+        "stages": {
+          "ocr_check": {
+            "calls": 2,
+            "wall_s_mean": 57.32,
+            "wall_s_median": 57.32,
+            "tokens_per_s_mean": 40.38,
+            "eval_tokens_mean": 1416.0
+          },
+          "vision_ocr": {
+            "calls": 1,
+            "wall_s_mean": 92.36,
+            "wall_s_median": 92.36,
+            "tokens_per_s_mean": 7.55,
+            "eval_tokens_mean": 659.0
+          },
+          "classify": {
+            "calls": 2,
+            "wall_s_mean": 24.17,
+            "wall_s_median": 24.17,
+            "tokens_per_s_mean": 63.1,
+            "eval_tokens_mean": 1389.0
+          },
+          "metadata": {
+            "calls": 2,
+            "wall_s_mean": 151.09,
+            "wall_s_median": 151.09,
+            "tokens_per_s_mean": 9.68,
+            "eval_tokens_mean": 1365.5
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1166 @@
+{
+  "generated_at": "2026-08-18T22:20:25.756625+00:00",
+  "base_url": "http://localhost:11434",
+  "host": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "cpu": "Apple M5 Pro",
+    "cores": 18,
+    "ram_gb": 48,
+    "ollama_version": "ollama version is 0.32.14"
+  },
+  "restart_between_models": true,
+  "repeats": 1,
+  "documents": [
+    "d06"
+  ],
+  "models_requested": [
+    "qwen3.6:35b-a3b",
+    "qwen3.8:27b",
+    "qwen3.6:27b"
+  ],
+  "models_done": [
+    "qwen3.6:35b-a3b",
+    "qwen3.8:27b",
+    "qwen3.6:27b"
+  ],
+  "raw": [
+    {
+      "model": "qwen3.6:35b-a3b",
+      "info": {
+        "family": "qwen35moe",
+        "parameter_size": "36.0B",
+        "quantization": "Q4_K_M",
+        "capabilities": [
+          "completion",
+          "vision",
+          "tools",
+          "thinking"
+        ]
+      },
+      "repeats": 1,
+      "total_wall_s": 95.7,
+      "session": {
+        "restarted": true,
+        "command": "pkill -f 'ollama serve' || true; sleep 3; nohup ollama serve >> \"${TMPDIR:-/tmp}/ollama-serve.log\" 2>&1 &",
+        "wait_s": 5.1,
+        "uptime_before_s": 612,
+        "uptime_after_s": 2,
+        "returncode": 0,
+        "stderr": null,
+        "uptime_at_start_s": 9,
+        "uptime_at_end_s": 105
+      },
+      "runs": [
+        [
+          {
+            "doc_id": "d06",
+            "variant": "hand",
+            "handwriting": "echt",
+            "stages": {
+              "ocr_check": {
+                "wall_s": 33.548,
+                "prompt_tokens": 417,
+                "eval_tokens": 2204,
+                "eval_s": 33.059,
+                "load_s": 0.166,
+                "tokens_per_s": 66.67,
+                "error": null
+              },
+              "vision_ocr": {
+                "wall_s": 11.112,
+                "prompt_tokens": 2244,
+                "eval_tokens": 442,
+                "eval_s": 6.655,
+                "load_s": 0.174,
+                "tokens_per_s": 66.42,
+                "error": null,
+                "predicted": "Mahnung überfällige Modul\nDatum 30.06.2026\nKassennummer 4971\nDer Modul wird spätestens bis 12.06.2026\nMahngebühr 6 CHF\nZuschlag für Woche 2.00 CHF\nBitte sofort an Tiger Journal Premier"
+              },
+              "classify": {
+                "wall_s": 26.277,
+                "prompt_tokens": 771,
+                "eval_tokens": 1708,
+                "eval_s": 25.62,
+                "load_s": 0.172,
+                "tokens_per_s": 66.67,
+                "error": null,
+                "predicted": {
+                  "correspondent": "Musikschule Talgrund",
+                  "document_type": "Mahnung",
+                  "tags": [
+                    "bildung"
+                  ]
+                }
+              },
+              "metadata": {
+                "wall_s": 24.677,
+                "prompt_tokens": 292,
+                "eval_tokens": 1623,
+                "eval_s": 24.247,
+                "load_s": 0.172,
+                "tokens_per_s": 66.94,
+                "error": null,
+                "predicted": {
+                  "title": "Mahnung überfälliges Modul",
+                  "created": "2026-06-30"
+                }
+              }
+            },
+            "scores": {
+              "ocr_check_correct": 1.0,
+              "cer": 0.35944700460829493,
+              "wer": 0.5,
+              "correspondent_correct": 0.0,
+              "document_type_correct": 1.0,
+              "tag_f1": 0.0,
+              "date_correct": 1.0,
+              "title_f1": 0.3333333333333333
+            },
+            "failed": null,
+            "skipped": null,
+            "host": {
+              "at": 1787091383.805444,
+              "server_uptime_s": 9,
+              "runner_uptime_s": 7,
+              "runner_rss_gb": 23.01,
+              "memory": {
+                "free_gb": 7.66,
+                "swap_used_mb": 824.19,
+                "compressed_gb": 3.79
+              },
+              "thermal": {
+                "cpu_speed_limit": null,
+                "warning_recorded": false
+              }
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "model": "qwen3.8:27b",
+      "info": {
+        "family": "qwen35",
+        "parameter_size": "27.3B",
+        "quantization": "Q4_K_M",
+        "capabilities": [
+          "completion",
+          "vision",
+          "tools",
+          "thinking"
+        ]
+      },
+      "repeats": 1,
+      "total_wall_s": 135.3,
+      "session": {
+        "restarted": true,
+        "command": "pkill -f 'ollama serve' || true; sleep 3; nohup ollama serve >> \"${TMPDIR:-/tmp}/ollama-serve.log\" 2>&1 &",
+        "wait_s": 5.1,
+        "uptime_before_s": 105,
+        "uptime_after_s": 2,
+        "returncode": 0,
+        "stderr": null,
+        "uptime_at_start_s": 8,
+        "uptime_at_end_s": 143
+      },
+      "runs": [
+        [
+          {
+            "doc_id": "d06",
+            "variant": "hand",
+            "handwriting": "echt",
+            "stages": {
+              "ocr_check": {
+                "wall_s": 44.366,
+                "prompt_tokens": 417,
+                "eval_tokens": 877,
+                "eval_s": 42.799,
+                "load_s": 0.144,
+                "tokens_per_s": 20.49,
+                "error": null
+              },
+              "vision_ocr": {
+                "wall_s": 27.468,
+                "prompt_tokens": 2244,
+                "eval_tokens": 190,
+                "eval_s": 15.969,
+                "load_s": 0.149,
+                "tokens_per_s": 11.9,
+                "error": null,
+                "predicted": "Bekannt\nMahnung überfällig Medien\nDatum 30.06.2026\nKundennummer 4471\nDebi Media und sämtliche mit 12.6.2026\nMahnschreiben 6 CHF\nZuschlag ins Werk 2.00 CHF\nBitte umsofort 10 Tage vor dem 2. Mahnung"
+              },
+              "classify": {
+                "wall_s": 34.567,
+                "prompt_tokens": 783,
+                "eval_tokens": 617,
+                "eval_s": 31.252,
+                "load_s": 0.146,
+                "tokens_per_s": 19.74,
+                "error": null,
+                "predicted": {
+                  "correspondent": null,
+                  "document_type": "Mahnung",
+                  "tags": [
+                    "finanzen",
+                    "freizeit"
+                  ]
+                }
+              },
+              "metadata": {
+                "wall_s": 28.811,
+                "prompt_tokens": 304,
+                "eval_tokens": 561,
+                "eval_s": 27.308,
+                "load_s": 0.145,
+                "tokens_per_s": 20.54,
+                "error": null,
+                "predicted": {
+                  "title": "Mahnung Debi Media – überfällige Medienrechnung, Kundennummer 4471",
+                  "created": "2026-06-30"
+                }
+              }
+            },
+            "scores": {
+              "ocr_check_correct": 1.0,
+              "cer": 0.391705069124424,
+              "wer": 0.6176470588235294,
+              "correspondent_correct": 0.0,
+              "document_type_correct": 1.0,
+              "tag_f1": 1.0,
+              "date_correct": 1.0,
+              "title_f1": 0.4
+            },
+            "failed": null,
+            "skipped": null,
+            "host": {
+              "at": 1787091490.472689,
+              "server_uptime_s": 8,
+              "runner_uptime_s": 6,
+              "runner_rss_gb": 19.68,
+              "memory": {
+                "free_gb": 12.84,
+                "swap_used_mb": 824.19,
+                "compressed_gb": 3.37
+              },
+              "thermal": {
+                "cpu_speed_limit": null,
+                "warning_recorded": false
+              }
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "model": "qwen3.6:27b",
+      "info": {
+        "family": "qwen35",
+        "parameter_size": "27.8B",
+        "quantization": "Q4_K_M",
+        "capabilities": [
+          "completion",
+          "vision",
+          "tools",
+          "thinking"
+        ]
+      },
+      "repeats": 1,
+      "total_wall_s": 637.7,
+      "session": {
+        "restarted": true,
+        "command": "pkill -f 'ollama serve' || true; sleep 3; nohup ollama serve >> \"${TMPDIR:-/tmp}/ollama-serve.log\" 2>&1 &",
+        "wait_s": 5.1,
+        "uptime_before_s": 358,
+        "uptime_after_s": 2,
+        "returncode": 0,
+        "stderr": null,
+        "uptime_at_start_s": 19,
+        "uptime_at_end_s": 657
+      },
+      "runs": [
+        [
+          {
+            "doc_id": "d06",
+            "variant": "hand",
+            "handwriting": "echt",
+            "stages": {
+              "ocr_check": {
+                "wall_s": 99.935,
+                "prompt_tokens": 412,
+                "eval_tokens": 1395,
+                "eval_s": 98.193,
+                "load_s": 0.169,
+                "tokens_per_s": 14.21,
+                "error": null
+              },
+              "vision_ocr": {
+                "wall_s": 171.869,
+                "prompt_tokens": 2244,
+                "eval_tokens": 2204,
+                "eval_s": 160.399,
+                "load_s": 0.177,
+                "tokens_per_s": 13.74,
+                "error": null,
+                "predicted": "Bilateraal beleid\nNatuurlijk uitvoerige Model-\nAutun 30.06.2026\nKunstenzwaams 49 t.t\nGeen Model en identiteits feit 12.6.2026\nMakroplastiekken 6 CHF\nJudoedler Ans Wade 2.00 CHF\nBilte simost 1e Tegen landd kremer"
+              },
+              "classify": {
+                "wall_s": 212.217,
+                "prompt_tokens": 794,
+                "eval_tokens": 2857,
+                "eval_s": 208.912,
+                "load_s": 0.186,
+                "tokens_per_s": 13.68,
+                "error": null,
+                "predicted": {
+                  "correspondent": null,
+                  "document_type": "Rechnung",
+                  "tags": [
+                    "finanzen"
+                  ]
+                }
+              },
+              "metadata": {
+                "wall_s": 153.608,
+                "prompt_tokens": 315,
+                "eval_tokens": 2091,
+                "eval_s": 152.041,
+                "load_s": 0.193,
+                "tokens_per_s": 13.75,
+                "error": null,
+                "predicted": {
+                  "title": "Bilateraal beleid: Modell- und Identitätsdokument",
+                  "created": "2026-06-30"
+                }
+              }
+            },
+            "scores": {
+              "ocr_check_correct": 1.0,
+              "cer": 0.5622119815668203,
+              "wer": 0.7941176470588235,
+              "correspondent_correct": 0.0,
+              "document_type_correct": 0.0,
+              "tag_f1": 0.6666666666666666,
+              "date_correct": 1.0,
+              "title_f1": 0.0
+            },
+            "failed": null,
+            "skipped": null,
+            "host": {
+              "at": 1787092008.407639,
+              "server_uptime_s": 19,
+              "runner_uptime_s": 16,
+              "runner_rss_gb": 19.69,
+              "memory": {
+                "free_gb": 11.37,
+                "swap_used_mb": 824.19,
+                "compressed_gb": 3.24
+              },
+              "thermal": {
+                "cpu_speed_limit": null,
+                "warning_recorded": false
+              }
+            }
+          }
+        ]
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "model": "qwen3.6:35b-a3b",
+      "info": {
+        "family": "qwen35moe",
+        "parameter_size": "36.0B",
+        "quantization": "Q4_K_M",
+        "capabilities": [
+          "completion",
+          "vision",
+          "tools",
+          "thinking"
+        ]
+      },
+      "documents_total": 1,
+      "documents_skipped": 0,
+      "skip_reason": null,
+      "documents_ok": 1,
+      "documents_failed": 0,
+      "failures": [],
+      "accuracy": {
+        "ocr_check_correct": 1.0,
+        "cer_echte_handschrift": 0.3594,
+        "wer_echte_handschrift": 0.5,
+        "cer_font": null,
+        "wer_font": null,
+        "correspondent_correct": 0.0,
+        "document_type_correct": 1.0,
+        "tag_f1": 0.0,
+        "date_correct": 1.0,
+        "title_f1": 0.3333
+      },
+      "accuracy_print_only": {
+        "documents": 0,
+        "ocr_check_correct": null,
+        "correspondent_correct": null,
+        "document_type_correct": null,
+        "tag_f1": null,
+        "date_correct": null,
+        "title_f1": null
+      },
+      "accuracy_spread": {
+        "ocr_check_correct": {
+          "mean": 1.0,
+          "stdev": 0.0,
+          "min": 1.0,
+          "max": 1.0,
+          "runs": [
+            1.0
+          ]
+        },
+        "cer_echte_handschrift": {
+          "mean": 0.3594,
+          "stdev": 0.0,
+          "min": 0.3594,
+          "max": 0.3594,
+          "runs": [
+            0.3594
+          ]
+        },
+        "wer_echte_handschrift": {
+          "mean": 0.5,
+          "stdev": 0.0,
+          "min": 0.5,
+          "max": 0.5,
+          "runs": [
+            0.5
+          ]
+        },
+        "cer_font": null,
+        "wer_font": null,
+        "correspondent_correct": {
+          "mean": 0.0,
+          "stdev": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "runs": [
+            0.0
+          ]
+        },
+        "document_type_correct": {
+          "mean": 1.0,
+          "stdev": 0.0,
+          "min": 1.0,
+          "max": 1.0,
+          "runs": [
+            1.0
+          ]
+        },
+        "tag_f1": {
+          "mean": 0.0,
+          "stdev": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "runs": [
+            0.0
+          ]
+        },
+        "date_correct": {
+          "mean": 1.0,
+          "stdev": 0.0,
+          "min": 1.0,
+          "max": 1.0,
+          "runs": [
+            1.0
+          ]
+        },
+        "title_f1": {
+          "mean": 0.3333,
+          "stdev": 0.0,
+          "min": 0.3333,
+          "max": 0.3333,
+          "runs": [
+            0.3333
+          ]
+        }
+      },
+      "per_document": {
+        "d06": {
+          "variant": "hand",
+          "handwriting": "echt",
+          "runs": 1,
+          "failed": 0,
+          "cer": {
+            "mean": 0.3594,
+            "stdev": 0.0,
+            "min": 0.3594,
+            "max": 0.3594,
+            "runs": [
+              0.3594
+            ]
+          },
+          "wer": {
+            "mean": 0.5,
+            "stdev": 0.0,
+            "min": 0.5,
+            "max": 0.5,
+            "runs": [
+              0.5
+            ]
+          },
+          "tag_f1": {
+            "mean": 0.0,
+            "stdev": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "runs": [
+              0.0
+            ]
+          },
+          "title_f1": {
+            "mean": 0.3333,
+            "stdev": 0.0,
+            "min": 0.3333,
+            "max": 0.3333,
+            "runs": [
+              0.3333
+            ]
+          },
+          "correspondent_correct": {
+            "mean": 0.0,
+            "stdev": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "runs": [
+              0.0
+            ]
+          },
+          "document_type_correct": {
+            "mean": 1.0,
+            "stdev": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "runs": [
+              1.0
+            ]
+          },
+          "date_correct": {
+            "mean": 1.0,
+            "stdev": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "runs": [
+              1.0
+            ]
+          },
+          "wall_s": {
+            "mean": 95.614,
+            "stdev": 0.0,
+            "min": 95.614,
+            "max": 95.614,
+            "runs": [
+              95.614
+            ]
+          }
+        }
+      },
+      "session": {
+        "restarted": true,
+        "command": "pkill -f 'ollama serve' || true; sleep 3; nohup ollama serve >> \"${TMPDIR:-/tmp}/ollama-serve.log\" 2>&1 &",
+        "wait_s": 5.1,
+        "uptime_before_s": 612,
+        "uptime_after_s": 2,
+        "returncode": 0,
+        "stderr": null,
+        "uptime_at_start_s": 9,
+        "uptime_at_end_s": 105
+      },
+      "host": {
+        "samples": 1,
+        "runner_rss_gb": {
+          "first": 23.01,
+          "last": 23.01,
+          "max": 23.01
+        },
+        "free_gb": {
+          "first": 7.66,
+          "last": 7.66,
+          "min": 7.66
+        },
+        "swap_used_mb": {
+          "first": 824.19,
+          "last": 824.19,
+          "max": 824.19
+        },
+        "cpu_speed_limit_min": null,
+        "thermally_limited": false
+      },
+      "speed": {
+        "wall_s_per_document_mean": 95.61,
+        "wall_s_per_document_by_repeat": [
+          95.61
+        ],
+        "total_wall_s": 95.7,
+        "stages": {
+          "ocr_check": {
+            "calls": 1,
+            "wall_s_mean": 33.55,
+            "wall_s_median": 33.55,
+            "tokens_per_s_mean": 66.67,
+            "eval_tokens_mean": 2204.0
+          },
+          "vision_ocr": {
+            "calls": 1,
+            "wall_s_mean": 11.11,
+            "wall_s_median": 11.11,
+            "tokens_per_s_mean": 66.42,
+            "eval_tokens_mean": 442.0
+          },
+          "classify": {
+            "calls": 1,
+            "wall_s_mean": 26.28,
+            "wall_s_median": 26.28,
+            "tokens_per_s_mean": 66.67,
+            "eval_tokens_mean": 1708.0
+          },
+          "metadata": {
+            "calls": 1,
+            "wall_s_mean": 24.68,
+            "wall_s_median": 24.68,
+            "tokens_per_s_mean": 66.94,
+            "eval_tokens_mean": 1623.0
+          }
+        }
+      }
+    },
+    {
+      "model": "qwen3.8:27b",
+      "info": {
+        "family": "qwen35",
+        "parameter_size": "27.3B",
+        "quantization": "Q4_K_M",
+        "capabilities": [
+          "completion",
+          "vision",
+          "tools",
+          "thinking"
+        ]
+      },
+      "documents_total": 1,
+      "documents_skipped": 0,
+      "skip_reason": null,
+      "documents_ok": 1,
+      "documents_failed": 0,
+      "failures": [],
+      "accuracy": {
+        "ocr_check_correct": 1.0,
+        "cer_echte_handschrift": 0.3917,
+        "wer_echte_handschrift": 0.6176,
+        "cer_font": null,
+        "wer_font": null,
+        "correspondent_correct": 0.0,
+        "document_type_correct": 1.0,
+        "tag_f1": 1.0,
+        "date_correct": 1.0,
+        "title_f1": 0.4
+      },
+      "accuracy_print_only": {
+        "documents": 0,
+        "ocr_check_correct": null,
+        "correspondent_correct": null,
+        "document_type_correct": null,
+        "tag_f1": null,
+        "date_correct": null,
+        "title_f1": null
+      },
+      "accuracy_spread": {
+        "ocr_check_correct": {
+          "mean": 1.0,
+          "stdev": 0.0,
+          "min": 1.0,
+          "max": 1.0,
+          "runs": [
+            1.0
+          ]
+        },
+        "cer_echte_handschrift": {
+          "mean": 0.3917,
+          "stdev": 0.0,
+          "min": 0.3917,
+          "max": 0.3917,
+          "runs": [
+            0.3917
+          ]
+        },
+        "wer_echte_handschrift": {
+          "mean": 0.6176,
+          "stdev": 0.0,
+          "min": 0.6176,
+          "max": 0.6176,
+          "runs": [
+            0.6176
+          ]
+        },
+        "cer_font": null,
+        "wer_font": null,
+        "correspondent_correct": {
+          "mean": 0.0,
+          "stdev": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "runs": [
+            0.0
+          ]
+        },
+        "document_type_correct": {
+          "mean": 1.0,
+          "stdev": 0.0,
+          "min": 1.0,
+          "max": 1.0,
+          "runs": [
+            1.0
+          ]
+        },
+        "tag_f1": {
+          "mean": 1.0,
+          "stdev": 0.0,
+          "min": 1.0,
+          "max": 1.0,
+          "runs": [
+            1.0
+          ]
+        },
+        "date_correct": {
+          "mean": 1.0,
+          "stdev": 0.0,
+          "min": 1.0,
+          "max": 1.0,
+          "runs": [
+            1.0
+          ]
+        },
+        "title_f1": {
+          "mean": 0.4,
+          "stdev": 0.0,
+          "min": 0.4,
+          "max": 0.4,
+          "runs": [
+            0.4
+          ]
+        }
+      },
+      "per_document": {
+        "d06": {
+          "variant": "hand",
+          "handwriting": "echt",
+          "runs": 1,
+          "failed": 0,
+          "cer": {
+            "mean": 0.3917,
+            "stdev": 0.0,
+            "min": 0.3917,
+            "max": 0.3917,
+            "runs": [
+              0.3917
+            ]
+          },
+          "wer": {
+            "mean": 0.6176,
+            "stdev": 0.0,
+            "min": 0.6176,
+            "max": 0.6176,
+            "runs": [
+              0.6176
+            ]
+          },
+          "tag_f1": {
+            "mean": 1.0,
+            "stdev": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "runs": [
+              1.0
+            ]
+          },
+          "title_f1": {
+            "mean": 0.4,
+            "stdev": 0.0,
+            "min": 0.4,
+            "max": 0.4,
+            "runs": [
+              0.4
+            ]
+          },
+          "correspondent_correct": {
+            "mean": 0.0,
+            "stdev": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "runs": [
+              0.0
+            ]
+          },
+          "document_type_correct": {
+            "mean": 1.0,
+            "stdev": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "runs": [
+              1.0
+            ]
+          },
+          "date_correct": {
+            "mean": 1.0,
+            "stdev": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "runs": [
+              1.0
+            ]
+          },
+          "wall_s": {
+            "mean": 135.212,
+            "stdev": 0.0,
+            "min": 135.212,
+            "max": 135.212,
+            "runs": [
+              135.212
+            ]
+          }
+        }
+      },
+      "session": {
+        "restarted": true,
+        "command": "pkill -f 'ollama serve' || true; sleep 3; nohup ollama serve >> \"${TMPDIR:-/tmp}/ollama-serve.log\" 2>&1 &",
+        "wait_s": 5.1,
+        "uptime_before_s": 105,
+        "uptime_after_s": 2,
+        "returncode": 0,
+        "stderr": null,
+        "uptime_at_start_s": 8,
+        "uptime_at_end_s": 143
+      },
+      "host": {
+        "samples": 1,
+        "runner_rss_gb": {
+          "first": 19.68,
+          "last": 19.68,
+          "max": 19.68
+        },
+        "free_gb": {
+          "first": 12.84,
+          "last": 12.84,
+          "min": 12.84
+        },
+        "swap_used_mb": {
+          "first": 824.19,
+          "last": 824.19,
+          "max": 824.19
+        },
+        "cpu_speed_limit_min": null,
+        "thermally_limited": false
+      },
+      "speed": {
+        "wall_s_per_document_mean": 135.21,
+        "wall_s_per_document_by_repeat": [
+          135.21
+        ],
+        "total_wall_s": 135.3,
+        "stages": {
+          "ocr_check": {
+            "calls": 1,
+            "wall_s_mean": 44.37,
+            "wall_s_median": 44.37,
+            "tokens_per_s_mean": 20.49,
+            "eval_tokens_mean": 877.0
+          },
+          "vision_ocr": {
+            "calls": 1,
+            "wall_s_mean": 27.47,
+            "wall_s_median": 27.47,
+            "tokens_per_s_mean": 11.9,
+            "eval_tokens_mean": 190.0
+          },
+          "classify": {
+            "calls": 1,
+            "wall_s_mean": 34.57,
+            "wall_s_median": 34.57,
+            "tokens_per_s_mean": 19.74,
+            "eval_tokens_mean": 617.0
+          },
+          "metadata": {
+            "calls": 1,
+            "wall_s_mean": 28.81,
+            "wall_s_median": 28.81,
+            "tokens_per_s_mean": 20.54,
+            "eval_tokens_mean": 561.0
+          }
+        }
+      }
+    },
+    {
+      "model": "qwen3.6:27b",
+      "info": {
+        "family": "qwen35",
+        "parameter_size": "27.8B",
+        "quantization": "Q4_K_M",
+        "capabilities": [
+          "completion",
+          "vision",
+          "tools",
+          "thinking"
+        ]
+      },
+      "documents_total": 1,
+      "documents_skipped": 0,
+      "skip_reason": null,
+      "documents_ok": 1,
+      "documents_failed": 0,
+      "failures": [],
+      "accuracy": {
+        "ocr_check_correct": 1.0,
+        "cer_echte_handschrift": 0.5622,
+        "wer_echte_handschrift": 0.7941,
+        "cer_font": null,
+        "wer_font": null,
+        "correspondent_correct": 0.0,
+        "document_type_correct": 0.0,
+        "tag_f1": 0.6667,
+        "date_correct": 1.0,
+        "title_f1": 0.0
+      },
+      "accuracy_print_only": {
+        "documents": 0,
+        "ocr_check_correct": null,
+        "correspondent_correct": null,
+        "document_type_correct": null,
+        "tag_f1": null,
+        "date_correct": null,
+        "title_f1": null
+      },
+      "accuracy_spread": {
+        "ocr_check_correct": {
+          "mean": 1.0,
+          "stdev": 0.0,
+          "min": 1.0,
+          "max": 1.0,
+          "runs": [
+            1.0
+          ]
+        },
+        "cer_echte_handschrift": {
+          "mean": 0.5622,
+          "stdev": 0.0,
+          "min": 0.5622,
+          "max": 0.5622,
+          "runs": [
+            0.5622
+          ]
+        },
+        "wer_echte_handschrift": {
+          "mean": 0.7941,
+          "stdev": 0.0,
+          "min": 0.7941,
+          "max": 0.7941,
+          "runs": [
+            0.7941
+          ]
+        },
+        "cer_font": null,
+        "wer_font": null,
+        "correspondent_correct": {
+          "mean": 0.0,
+          "stdev": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "runs": [
+            0.0
+          ]
+        },
+        "document_type_correct": {
+          "mean": 0.0,
+          "stdev": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "runs": [
+            0.0
+          ]
+        },
+        "tag_f1": {
+          "mean": 0.6667,
+          "stdev": 0.0,
+          "min": 0.6667,
+          "max": 0.6667,
+          "runs": [
+            0.6667
+          ]
+        },
+        "date_correct": {
+          "mean": 1.0,
+          "stdev": 0.0,
+          "min": 1.0,
+          "max": 1.0,
+          "runs": [
+            1.0
+          ]
+        },
+        "title_f1": {
+          "mean": 0.0,
+          "stdev": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "runs": [
+            0.0
+          ]
+        }
+      },
+      "per_document": {
+        "d06": {
+          "variant": "hand",
+          "handwriting": "echt",
+          "runs": 1,
+          "failed": 0,
+          "cer": {
+            "mean": 0.5622,
+            "stdev": 0.0,
+            "min": 0.5622,
+            "max": 0.5622,
+            "runs": [
+              0.5622
+            ]
+          },
+          "wer": {
+            "mean": 0.7941,
+            "stdev": 0.0,
+            "min": 0.7941,
+            "max": 0.7941,
+            "runs": [
+              0.7941
+            ]
+          },
+          "tag_f1": {
+            "mean": 0.6667,
+            "stdev": 0.0,
+            "min": 0.6667,
+            "max": 0.6667,
+            "runs": [
+              0.6667
+            ]
+          },
+          "title_f1": {
+            "mean": 0.0,
+            "stdev": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "runs": [
+              0.0
+            ]
+          },
+          "correspondent_correct": {
+            "mean": 0.0,
+            "stdev": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "runs": [
+              0.0
+            ]
+          },
+          "document_type_correct": {
+            "mean": 0.0,
+            "stdev": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "runs": [
+              0.0
+            ]
+          },
+          "date_correct": {
+            "mean": 1.0,
+            "stdev": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "runs": [
+              1.0
+            ]
+          },
+          "wall_s": {
+            "mean": 637.629,
+            "stdev": 0.0,
+            "min": 637.629,
+            "max": 637.629,
+            "runs": [
+              637.629
+            ]
+          }
+        }
+      },
+      "session": {
+        "restarted": true,
+        "command": "pkill -f 'ollama serve' || true; sleep 3; nohup ollama serve >> \"${TMPDIR:-/tmp}/ollama-serve.log\" 2>&1 &",
+        "wait_s": 5.1,
+        "uptime_before_s": 358,
+        "uptime_after_s": 2,
+        "returncode": 0,
+        "stderr": null,
+        "uptime_at_start_s": 19,
+        "uptime_at_end_s": 657
+      },
+      "host": {
+        "samples": 1,
+        "runner_rss_gb": {
+          "first": 19.69,
+          "last": 19.69,
+          "max": 19.69
+        },
+        "free_gb": {
+          "first": 11.37,
+          "last": 11.37,
+          "min": 11.37
+        },
+        "swap_used_mb": {
+          "first": 824.19,
+          "last": 824.19,
+          "max": 824.19
+        },
+        "cpu_speed_limit_min": null,
+        "thermally_limited": false
+      },
+      "speed": {
+        "wall_s_per_document_mean": 637.63,
+        "wall_s_per_document_by_repeat": [
+          637.63
+        ],
+        "total_wall_s": 637.7,
+        "stages": {
+          "ocr_check": {
+            "calls": 1,
+            "wall_s_mean": 99.94,
+            "wall_s_median": 99.94,
+            "tokens_per_s_mean": 14.21,
+            "eval_tokens_mean": 1395.0
+          },
+          "vision_ocr": {
+            "calls": 1,
+            "wall_s_mean": 171.87,
+            "wall_s_median": 171.87,
+            "tokens_per_s_mean": 13.74,
+            "eval_tokens_mean": 2204.0
+          },
+          "classify": {
+            "calls": 1,
+            "wall_s_mean": 212.22,
+            "wall_s_median": 212.22,
+            "tokens_per_s_mean": 13.68,
+            "eval_tokens_mean": 2857.0
+          },
+          "metadata": {
+            "calls": 1,
+            "wall_s_mean": 153.61,
+            "wall_s_median": 153.61,
+            "tokens_per_s_mean": 13.75,
+            "eval_tokens_mean": 2091.0
+          }
+        }
+      }
+    }
+  ],
+  "note": "Nur d06, ein Durchlauf je Modell. Zweck ist nicht die Messung, sondern der gelesene Text: die Fehlerraten von lauf3-lokal.json bleiben massgeblich."
+}

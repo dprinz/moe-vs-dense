@@ -1,0 +1,15 @@
+correspondent: Bibliothek Seefeld
+document_type: Mahnung
+tags: freizeit, finanzen
+title: Mahnung überfällige Medien
+created: 2026-06-30
+---
+Bibliothek Seefeld
+Mahnung überfällige Medien
+Datum 30.06.2026
+
+Ausweisnummer 4471
+Drei Medien sind überfällig seit 12.06.2026
+Mahngebühr 6.00 CHF
+Zuschlag pro Woche 2.00 CHF
+Bitte innert zehn Tagen zurückbringen

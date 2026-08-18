@@ -1,0 +1,256 @@
+[
+  {
+    "doc_id": "d01",
+    "variant": "print",
+    "title": "Stromabrechnung 2. Quartal 2026",
+    "lines": [
+      "Stadtwerke Hallwil",
+      "Werkstrasse 12, 8570 Hallwil",
+      "",
+      "Rechnung Nr. 2026-04417",
+      "Rechnungsdatum: 04.07.2026",
+      "Kundennummer: 88-4412-7",
+      "",
+      "Stromabrechnung 2. Quartal 2026",
+      "Abrechnungszeitraum: 01.04.2026 bis 30.06.2026",
+      "",
+      "Verbrauch Hochtarif      412 kWh      98.88 CHF",
+      "Verbrauch Niedertarif    286 kWh      45.76 CHF",
+      "Grundgebühr                          24.00 CHF",
+      "Netznutzung                          61.20 CHF",
+      "",
+      "Zwischensumme                       229.84 CHF",
+      "Mehrwertsteuer 8.1 Prozent           18.62 CHF",
+      "Rechnungsbetrag                     248.46 CHF",
+      "",
+      "Zahlbar bis 03.08.2026 ohne Abzug."
+    ],
+    "correspondent": "Stadtwerke Hallwil",
+    "document_type": "Rechnung",
+    "tags": [
+      "finanzen",
+      "wohnen"
+    ],
+    "created": "2026-07-04",
+    "source_pdf": null,
+    "handwriting": null,
+    "notes": ""
+  },
+  {
+    "doc_id": "d02",
+    "variant": "print",
+    "title": "Hausratversicherung Policenänderung",
+    "lines": [
+      "Versicherung Steinbach AG",
+      "Postfach 220, 3000 Bern",
+      "",
+      "Policenänderung zur Hausratversicherung",
+      "Policennummer: HR-771-9048",
+      "Datum: 19.05.2026",
+      "",
+      "Sehr geehrter Versicherungsnehmer",
+      "",
+      "Wir bestätigen Ihnen die Anpassung der Versicherungssumme",
+      "per 01.06.2026. Die neue Versicherungssumme beträgt",
+      "120000 CHF. Der Jahresbeitrag ändert sich dadurch von",
+      "384.00 CHF auf 431.00 CHF.",
+      "",
+      "Der Selbstbehalt bleibt unverändert bei 200 CHF je",
+      "Schadenfall. Alle übrigen Vertragsbedingungen gelten",
+      "unverändert weiter.",
+      "",
+      "Freundliche Grüsse",
+      "Versicherung Steinbach AG"
+    ],
+    "correspondent": "Versicherung Steinbach AG",
+    "document_type": "Vertrag",
+    "tags": [
+      "versicherung",
+      "wohnen"
+    ],
+    "created": "2026-05-19",
+    "source_pdf": null,
+    "handwriting": null,
+    "notes": ""
+  },
+  {
+    "doc_id": "d03",
+    "variant": "print",
+    "title": "Servicearbeiten Jahreswartung",
+    "lines": [
+      "Garage Wenger GmbH",
+      "Industriestrasse 4, 9000 Talgrund",
+      "",
+      "Rechnung 6621",
+      "Datum: 11.06.2026",
+      "Fahrzeug: Kombi, Jahrgang 2019",
+      "Kilometerstand: 84210",
+      "",
+      "Jahreswartung",
+      "",
+      "Motoröl und Filter wechseln           142.00 CHF",
+      "Bremsflüssigkeit ersetzen              88.00 CHF",
+      "Pollenfilter                           46.50 CHF",
+      "Arbeitszeit 2.5 Stunden               287.50 CHF",
+      "",
+      "Total inkl. Mehrwertsteuer            564.00 CHF",
+      "",
+      "Zahlbar innert 30 Tagen."
+    ],
+    "correspondent": "Garage Wenger GmbH",
+    "document_type": "Rechnung",
+    "tags": [
+      "fahrzeug",
+      "finanzen"
+    ],
+    "created": "2026-06-11",
+    "source_pdf": null,
+    "handwriting": null,
+    "notes": ""
+  },
+  {
+    "doc_id": "d04",
+    "variant": "print",
+    "title": "Wohnsitzbestätigung",
+    "lines": [
+      "Gemeindeverwaltung Amriswil",
+      "Einwohnerdienste",
+      "Rathausplatz 1, 8580 Amriswil",
+      "",
+      "Wohnsitzbestätigung",
+      "Ausgestellt am 28.04.2026",
+      "Geschäftsnummer: EW-2026-3391",
+      "",
+      "Hiermit wird bestätigt, dass die antragstellende Person",
+      "seit dem 01.09.2021 ununterbrochen in der Gemeinde",
+      "Amriswil angemeldet ist.",
+      "",
+      "Diese Bestätigung dient zur Vorlage bei Behörden und",
+      "ist ohne Unterschrift gültig.",
+      "",
+      "Einwohnerdienste Amriswil"
+    ],
+    "correspondent": "Gemeindeverwaltung Amriswil",
+    "document_type": "Bestätigung",
+    "tags": [
+      "behörde",
+      "wohnen"
+    ],
+    "created": "2026-04-28",
+    "source_pdf": null,
+    "handwriting": null,
+    "notes": ""
+  },
+  {
+    "doc_id": "d05",
+    "variant": "hand",
+    "title": "Kontaktliste Blockflötengruppe Mittwoch",
+    "lines": [
+      "Musikschule Talgrund",
+      "Kontaktliste Blockflötengruppe Mittwoch",
+      "Stand 12.8.2026",
+      "",
+      "Gruppe A - Anfänger",
+      "Aaron A.",
+      "Tel 077 400 11 22, ab 17 Uhr",
+      "",
+      "Abdul Al-Hazred",
+      "Tel 076 236 12 31, immer",
+      "",
+      "Gruppe B - Fortgeschritten",
+      "Sol Weintraub",
+      "Tel 079 123 55 66, nachmittags",
+      "",
+      "Johnny Rico",
+      "Tel 076 623 71 12, morgens"
+    ],
+    "correspondent": "Musikschule Talgrund",
+    "document_type": "Kontaktliste",
+    "tags": [
+      "bildung",
+      "freizeit"
+    ],
+    "created": "2026-08-12",
+    "source_pdf": "ocr/d05-hand.pdf",
+    "handwriting": "echt",
+    "notes": "von Hand geschrieben und eingescannt"
+  },
+  {
+    "doc_id": "d06",
+    "variant": "hand",
+    "title": "Mahnung überfällige Medien",
+    "lines": [
+      "Bibliothek Seefeld",
+      "Mahnung überfällige Medien",
+      "Datum 30.06.2026",
+      "",
+      "Ausweisnummer 4471",
+      "Drei Medien sind überfällig seit 12.06.2026",
+      "Mahngebühr 6.00 CHF",
+      "Zuschlag pro Woche 2.00 CHF",
+      "Bitte innert zehn Tagen zurückbringen"
+    ],
+    "correspondent": "Bibliothek Seefeld",
+    "document_type": "Mahnung",
+    "tags": [
+      "freizeit",
+      "finanzen"
+    ],
+    "created": "2026-06-30",
+    "source_pdf": "ocr/d06-hand.pdf",
+    "handwriting": "echt",
+    "notes": "von Hand geschrieben und eingescannt"
+  },
+  {
+    "doc_id": "d07",
+    "variant": "hand",
+    "title": "Verlaufsnotiz Kontrolluntersuchung",
+    "lines": [
+      "Kantonsspital Nordheim",
+      "Ambulanz Innere Medizin",
+      "Verlaufsnotiz Kontrolluntersuchung",
+      "Datum 22.07.2026",
+      "",
+      "Blutdruck 128 zu 82, Puls 68 regelmässig",
+      "Laborwerte unauffällig",
+      "Cholesterin leicht erhöht",
+      "Beurteilung: Verlauf zufriedenstellend",
+      "Kontrolle in sechs Monaten"
+    ],
+    "correspondent": "Kantonsspital Nordheim",
+    "document_type": "Arztbericht",
+    "tags": [
+      "gesundheit"
+    ],
+    "created": "2026-07-22",
+    "source_pdf": null,
+    "handwriting": "font",
+    "notes": "mit Handschrift-Font gerendert, kein echter Scan"
+  },
+  {
+    "doc_id": "d08",
+    "variant": "hand",
+    "title": "Anmeldeformular Neupatient",
+    "lines": [
+      "Zahnarztpraxis Dr. Lehner",
+      "Anmeldeformular Neupatient",
+      "Eingang: 03.08.2026",
+      "",
+      "Versicherung: Grundversicherung",
+      "Letzte Kontrolle: vor zwei Jahren",
+      "Beschwerden: Empfindlichkeit oben rechts",
+      "Seit wann: etwa drei Wochen",
+      "Allergien: Penicillin",
+      "Gewünschter Termin: vormittags"
+    ],
+    "correspondent": "Zahnarztpraxis Dr. Lehner",
+    "document_type": "Anmeldeformular",
+    "tags": [
+      "gesundheit"
+    ],
+    "created": "2026-08-03",
+    "source_pdf": null,
+    "handwriting": "font",
+    "notes": "mit Handschrift-Font gerendert, kein echter Scan"
+  }
+]

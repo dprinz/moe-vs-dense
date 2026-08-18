@@ -1,0 +1,16 @@
+correspondent: Kantonsspital Nordheim
+document_type: Arztbericht
+tags: gesundheit
+title: Verlaufsnotiz Kontrolluntersuchung
+created: 2026-07-22
+---
+Kantonsspital Nordheim
+Ambulanz Innere Medizin
+Verlaufsnotiz Kontrolluntersuchung
+Datum 22.07.2026
+
+Blutdruck 128 zu 82, Puls 68 regelmässig
+Laborwerte unauffällig
+Cholesterin leicht erhöht
+Beurteilung: Verlauf zufriedenstellend
+Kontrolle in sechs Monaten

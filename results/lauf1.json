@@ -1,0 +1,888 @@
+{
+  "generated_at": "2026-08-18T13:43:56.059440+00:00",
+  "base_url": "http://mac-tkb.home.arpa:11434",
+  "repeats": 1,
+  "documents": [
+    "d01",
+    "d02",
+    "d03",
+    "d04",
+    "d05",
+    "d06"
+  ],
+  "raw": [
+    {
+      "model": "qwen3.8:27b",
+      "info": {
+        "family": "qwen35",
+        "parameter_size": "27.3B",
+        "quantization": "Q4_K_M",
+        "capabilities": [
+          "completion",
+          "vision",
+          "tools",
+          "thinking"
+        ]
+      },
+      "repeats": 1,
+      "total_wall_s": 1095.1,
+      "runs": [
+        [
+          {
+            "doc_id": "d01",
+            "variant": "print",
+            "handwriting": null,
+            "stages": {
+              "ocr_check": {
+                "wall_s": 40.322,
+                "prompt_tokens": 566,
+                "eval_tokens": 389,
+                "eval_s": 39.838,
+                "load_s": 0.147,
+                "tokens_per_s": 9.76,
+                "error": null
+              },
+              "classify": {
+                "wall_s": 223.163,
+                "prompt_tokens": 945,
+                "eval_tokens": 383,
+                "eval_s": 221.615,
+                "load_s": 0.855,
+                "tokens_per_s": 1.73,
+                "error": null,
+                "predicted": {
+                  "correspondent": "Stadtwerke Hallwil",
+                  "document_type": "Rechnung",
+                  "tags": [
+                    "finanzen",
+                    "wohnen"
+                  ]
+                }
+              },
+              "metadata": {
+                "wall_s": 77.814,
+                "prompt_tokens": 466,
+                "eval_tokens": 359,
+                "eval_s": 76.175,
+                "load_s": 0.83,
+                "tokens_per_s": 4.71,
+                "error": null,
+                "predicted": {
+                  "title": "Stromabrechnung 2. Quartal 2026 – Stadtwerke Hallwil",
+                  "created": "2026-07-04"
+                }
+              }
+            },
+            "scores": {
+              "ocr_check_correct": 1.0,
+              "correspondent_correct": 1.0,
+              "document_type_correct": 1.0,
+              "tag_f1": 1.0,
+              "date_correct": 1.0,
+              "title_f1": 0.8
+            },
+            "failed": null
+          },
+          {
+            "doc_id": "d02",
+            "variant": "print",
+            "handwriting": null,
+            "stages": {
+              "ocr_check": {
+                "wall_s": 27.141,
+                "prompt_tokens": 499,
+                "eval_tokens": 407,
+                "eval_s": 21.519,
+                "load_s": 0.843,
+                "tokens_per_s": 18.91,
+                "error": null
+              },
+              "classify": {
+                "wall_s": 28.031,
+                "prompt_tokens": 878,
+                "eval_tokens": 666,
+                "eval_s": 26.357,
+                "load_s": 0.171,
+                "tokens_per_s": 25.27,
+                "error": null,
+                "predicted": {
+                  "correspondent": "Versicherung Steinbach AG",
+                  "document_type": "Bestätigung",
+                  "tags": [
+                    "versicherung",
+                    "finanzen",
+                    "wohnen"
+                  ]
+                }
+              },
+              "metadata": {
+                "wall_s": 326.169,
+                "prompt_tokens": 399,
+                "eval_tokens": 468,
+                "eval_s": 324.533,
+                "load_s": 0.15,
+                "tokens_per_s": 1.44,
+                "error": null,
+                "predicted": {
+                  "title": "Policenänderung Hausratversicherung HR-771-9048 – Anpassung Versicherungssumme auf 120'000 CHF",
+                  "created": "2026-05-19"
+                }
+              }
+            },
+            "scores": {
+              "ocr_check_correct": 1.0,
+              "correspondent_correct": 1.0,
+              "document_type_correct": 0.0,
+              "tag_f1": 0.8,
+              "date_correct": 1.0,
+              "title_f1": 0.3076923076923077
+            },
+            "failed": null
+          },
+          {
+            "doc_id": "d03",
+            "variant": "print",
+            "handwriting": null,
+            "stages": {
+              "ocr_check": {
+                "wall_s": 16.462,
+                "prompt_tokens": 482,
+                "eval_tokens": 357,
+                "eval_s": 14.693,
+                "load_s": 0.153,
+                "tokens_per_s": 24.3,
+                "error": null
+              },
+              "classify": {
+                "wall_s": 16.482,
+                "prompt_tokens": 861,
+                "eval_tokens": 389,
+                "eval_s": 14.738,
+                "load_s": 0.167,
+                "tokens_per_s": 26.39,
+                "error": null,
+                "predicted": {
+                  "correspondent": "Garage Wenger GmbH",
+                  "document_type": "Rechnung",
+                  "tags": [
+                    "fahrzeug",
+                    "finanzen"
+                  ]
+                }
+              },
+              "metadata": {
+                "wall_s": 41.758,
+                "prompt_tokens": 382,
+                "eval_tokens": 506,
+                "eval_s": 40.48,
+                "load_s": 0.143,
+                "tokens_per_s": 12.5,
+                "error": null,
+                "predicted": {
+                  "title": "Rechnung 6621 – Jahreswartung Kombi 2019, Garage Wenger GmbH",
+                  "created": "2026-06-11"
+                }
+              }
+            },
+            "scores": {
+              "ocr_check_correct": 1.0,
+              "correspondent_correct": 1.0,
+              "document_type_correct": 1.0,
+              "tag_f1": 1.0,
+              "date_correct": 1.0,
+              "title_f1": 0.2
+            },
+            "failed": null
+          },
+          {
+            "doc_id": "d04",
+            "variant": "print",
+            "handwriting": null,
+            "stages": {
+              "ocr_check": {
+                "wall_s": 18.382,
+                "prompt_tokens": 457,
+                "eval_tokens": 352,
+                "eval_s": 16.668,
+                "load_s": 0.164,
+                "tokens_per_s": 21.12,
+                "error": null
+              },
+              "classify": {
+                "wall_s": 22.038,
+                "prompt_tokens": 836,
+                "eval_tokens": 475,
+                "eval_s": 20.172,
+                "load_s": 0.164,
+                "tokens_per_s": 23.55,
+                "error": null,
+                "predicted": {
+                  "correspondent": "Gemeindeverwaltung Amriswil",
+                  "document_type": "Bestätigung",
+                  "tags": [
+                    "wohnen",
+                    "behörde"
+                  ]
+                }
+              },
+              "metadata": {
+                "wall_s": 16.738,
+                "prompt_tokens": 357,
+                "eval_tokens": 362,
+                "eval_s": 15.224,
+                "load_s": 0.167,
+                "tokens_per_s": 23.78,
+                "error": null,
+                "predicted": {
+                  "title": "Wohnsitzbestätigung Gemeinde Amriswil (EW-2026-3391)",
+                  "created": "2026-04-28"
+                }
+              }
+            },
+            "scores": {
+              "ocr_check_correct": 1.0,
+              "correspondent_correct": 1.0,
+              "document_type_correct": 1.0,
+              "tag_f1": 1.0,
+              "date_correct": 1.0,
+              "title_f1": 0.2857142857142857
+            },
+            "failed": null
+          },
+          {
+            "doc_id": "d05",
+            "variant": "hand",
+            "handwriting": "echt",
+            "stages": {
+              "ocr_check": {
+                "wall_s": 28.951,
+                "prompt_tokens": 472,
+                "eval_tokens": 580,
+                "eval_s": 27.137,
+                "load_s": 0.181,
+                "tokens_per_s": 21.37,
+                "error": null
+              },
+              "vision_ocr": {
+                "wall_s": 38.108,
+                "prompt_tokens": 2244,
+                "eval_tokens": 408,
+                "eval_s": 26.066,
+                "load_s": 0.224,
+                "tokens_per_s": 15.65,
+                "error": null
+              },
+              "classify": {
+                "wall_s": 24.1,
+                "prompt_tokens": 832,
+                "eval_tokens": 480,
+                "eval_s": 22.112,
+                "load_s": 0.171,
+                "tokens_per_s": 21.71,
+                "error": null,
+                "predicted": {
+                  "correspondent": "Musikschule Talgrund",
+                  "document_type": "Kontaktliste",
+                  "tags": [
+                    "bildung",
+                    "freizeit"
+                  ]
+                }
+              },
+              "metadata": {
+                "wall_s": 16.582,
+                "prompt_tokens": 353,
+                "eval_tokens": 327,
+                "eval_s": 15.035,
+                "load_s": 0.175,
+                "tokens_per_s": 21.75,
+                "error": null,
+                "predicted": {
+                  "title": "Kontaktliste Blöthflötengruppe Mittwoch – Musikschule Telgrund",
+                  "created": "2026-08-12"
+                }
+              }
+            },
+            "scores": {
+              "ocr_check_correct": 1.0,
+              "cer": 0.10069444444444445,
+              "wer": 0.28,
+              "correspondent_correct": 1.0,
+              "document_type_correct": 1.0,
+              "tag_f1": 1.0,
+              "date_correct": 1.0,
+              "title_f1": 0.5
+            },
+            "failed": null
+          },
+          {
+            "doc_id": "d06",
+            "variant": "hand",
+            "handwriting": "echt",
+            "stages": {
+              "ocr_check": {
+                "wall_s": 50.121,
+                "prompt_tokens": 408,
+                "eval_tokens": 900,
+                "eval_s": 48.653,
+                "load_s": 0.15,
+                "tokens_per_s": 18.5,
+                "error": null
+              },
+              "vision_ocr": {
+                "wall_s": 24.575,
+                "prompt_tokens": 2244,
+                "eval_tokens": 188,
+                "eval_s": 14.272,
+                "load_s": 0.182,
+                "tokens_per_s": 13.17,
+                "error": null
+              },
+              "classify": {
+                "wall_s": 27.235,
+                "prompt_tokens": 781,
+                "eval_tokens": 531,
+                "eval_s": 25.551,
+                "load_s": 0.153,
+                "tokens_per_s": 20.78,
+                "error": null,
+                "predicted": {
+                  "correspondent": "Stadtwerke Hallwil",
+                  "document_type": "Mahnung",
+                  "tags": [
+                    "finanzen",
+                    "wohnen"
+                  ]
+                }
+              },
+              "metadata": {
+                "wall_s": 30.883,
+                "prompt_tokens": 302,
+                "eval_tokens": 633,
+                "eval_s": 29.402,
+                "load_s": 0.168,
+                "tokens_per_s": 21.53,
+                "error": null,
+                "predicted": {
+                  "title": "Mahnung überfällige Zahlung – Dear Media, Kundennummer 4471",
+                  "created": "2026-06-30"
+                }
+              }
+            },
+            "scores": {
+              "ocr_check_correct": 1.0,
+              "cer": 0.391705069124424,
+              "wer": 0.6176470588235294,
+              "correspondent_correct": 0.0,
+              "document_type_correct": 1.0,
+              "tag_f1": 0.5,
+              "date_correct": 1.0,
+              "title_f1": 0.4
+            },
+            "failed": null
+          }
+        ]
+      ]
+    },
+    {
+      "model": "qwen3.6:35b-a3b",
+      "info": {
+        "family": "qwen35moe",
+        "parameter_size": "36.0B",
+        "quantization": "Q4_K_M",
+        "capabilities": [
+          "completion",
+          "vision",
+          "tools",
+          "thinking"
+        ]
+      },
+      "repeats": 1,
+      "total_wall_s": 438.8,
+      "runs": [
+        [
+          {
+            "doc_id": "d01",
+            "variant": "print",
+            "handwriting": null,
+            "stages": {
+              "ocr_check": {
+                "wall_s": 12.283,
+                "prompt_tokens": 566,
+                "eval_tokens": 778,
+                "eval_s": 11.638,
+                "load_s": 0.172,
+                "tokens_per_s": 66.85,
+                "error": null
+              },
+              "classify": {
+                "wall_s": 13.719,
+                "prompt_tokens": 945,
+                "eval_tokens": 853,
+                "eval_s": 12.87,
+                "load_s": 0.187,
+                "tokens_per_s": 66.28,
+                "error": null,
+                "predicted": {
+                  "correspondent": "Stadtwerke Hallwil",
+                  "document_type": "Rechnung",
+                  "tags": [
+                    "finanzen",
+                    "wohnen"
+                  ]
+                }
+              },
+              "metadata": {
+                "wall_s": 13.971,
+                "prompt_tokens": 466,
+                "eval_tokens": 908,
+                "eval_s": 13.423,
+                "load_s": 0.199,
+                "tokens_per_s": 67.64,
+                "error": null,
+                "predicted": {
+                  "title": "Stromabrechnung 2. Quartal 2026",
+                  "created": "2026-07-04"
+                }
+              }
+            },
+            "scores": {
+              "ocr_check_correct": 1.0,
+              "correspondent_correct": 1.0,
+              "document_type_correct": 1.0,
+              "tag_f1": 1.0,
+              "date_correct": 1.0,
+              "title_f1": 1.0
+            },
+            "failed": null
+          },
+          {
+            "doc_id": "d02",
+            "variant": "print",
+            "handwriting": null,
+            "stages": {
+              "ocr_check": {
+                "wall_s": 23.041,
+                "prompt_tokens": 499,
+                "eval_tokens": 1510,
+                "eval_s": 22.41,
+                "load_s": 0.185,
+                "tokens_per_s": 67.38,
+                "error": null
+              },
+              "classify": {
+                "wall_s": 23.935,
+                "prompt_tokens": 878,
+                "eval_tokens": 1559,
+                "eval_s": 23.365,
+                "load_s": 0.187,
+                "tokens_per_s": 66.72,
+                "error": null,
+                "predicted": {
+                  "correspondent": "Versicherung Steinbach AG",
+                  "document_type": "Bestätigung",
+                  "tags": [
+                    "versicherung"
+                  ]
+                }
+              },
+              "metadata": {
+                "wall_s": 14.458,
+                "prompt_tokens": 399,
+                "eval_tokens": 933,
+                "eval_s": 13.92,
+                "load_s": 0.189,
+                "tokens_per_s": 67.03,
+                "error": null,
+                "predicted": {
+                  "title": "Policenänderung zur Hausratversicherung",
+                  "created": "2026-05-19"
+                }
+              }
+            },
+            "scores": {
+              "ocr_check_correct": 1.0,
+              "correspondent_correct": 1.0,
+              "document_type_correct": 0.0,
+              "tag_f1": 0.6666666666666666,
+              "date_correct": 1.0,
+              "title_f1": 1.0
+            },
+            "failed": null
+          },
+          {
+            "doc_id": "d03",
+            "variant": "print",
+            "handwriting": null,
+            "stages": {
+              "ocr_check": {
+                "wall_s": 13.454,
+                "prompt_tokens": 482,
+                "eval_tokens": 863,
+                "eval_s": 12.883,
+                "load_s": 0.182,
+                "tokens_per_s": 66.99,
+                "error": null
+              },
+              "classify": {
+                "wall_s": 18.939,
+                "prompt_tokens": 861,
+                "eval_tokens": 1222,
+                "eval_s": 18.371,
+                "load_s": 0.192,
+                "tokens_per_s": 66.52,
+                "error": null,
+                "predicted": {
+                  "correspondent": "Garage Wenger GmbH",
+                  "document_type": "Rechnung",
+                  "tags": [
+                    "fahrzeug",
+                    "finanzen"
+                  ]
+                }
+              },
+              "metadata": {
+                "wall_s": 15.439,
+                "prompt_tokens": 382,
+                "eval_tokens": 1002,
+                "eval_s": 14.95,
+                "load_s": 0.186,
+                "tokens_per_s": 67.02,
+                "error": null,
+                "predicted": {
+                  "title": "Rechnung Garage Wenger GmbH – Jahreswartung Kombi 2019",
+                  "created": "2026-06-11"
+                }
+              }
+            },
+            "scores": {
+              "ocr_check_correct": 1.0,
+              "correspondent_correct": 1.0,
+              "document_type_correct": 1.0,
+              "tag_f1": 1.0,
+              "date_correct": 1.0,
+              "title_f1": 0.22222222222222224
+            },
+            "failed": null
+          },
+          {
+            "doc_id": "d04",
+            "variant": "print",
+            "handwriting": null,
+            "stages": {
+              "ocr_check": {
+                "wall_s": 21.137,
+                "prompt_tokens": 457,
+                "eval_tokens": 1372,
+                "eval_s": 20.622,
+                "load_s": 0.181,
+                "tokens_per_s": 66.53,
+                "error": null
+              },
+              "classify": {
+                "wall_s": 25.678,
+                "prompt_tokens": 836,
+                "eval_tokens": 1677,
+                "eval_s": 25.151,
+                "load_s": 0.188,
+                "tokens_per_s": 66.68,
+                "error": null,
+                "predicted": {
+                  "correspondent": "Gemeindeverwaltung Amriswil",
+                  "document_type": "Bestätigung",
+                  "tags": [
+                    "behörde",
+                    "wohnen"
+                  ]
+                }
+              },
+              "metadata": {
+                "wall_s": 12.607,
+                "prompt_tokens": 357,
+                "eval_tokens": 819,
+                "eval_s": 12.136,
+                "load_s": 0.18,
+                "tokens_per_s": 67.49,
+                "error": null,
+                "predicted": {
+                  "title": "Wohnsitzbestätigung der Gemeinde Amriswil",
+                  "created": "2026-04-28"
+                }
+              }
+            },
+            "scores": {
+              "ocr_check_correct": 1.0,
+              "correspondent_correct": 1.0,
+              "document_type_correct": 1.0,
+              "tag_f1": 1.0,
+              "date_correct": 1.0,
+              "title_f1": 0.5
+            },
+            "failed": null
+          },
+          {
+            "doc_id": "d05",
+            "variant": "hand",
+            "handwriting": "echt",
+            "stages": {
+              "ocr_check": {
+                "wall_s": 30.956,
+                "prompt_tokens": 472,
+                "eval_tokens": 2022,
+                "eval_s": 30.426,
+                "load_s": 0.183,
+                "tokens_per_s": 66.46,
+                "error": null
+              },
+              "vision_ocr": {
+                "wall_s": 34.16,
+                "prompt_tokens": 2244,
+                "eval_tokens": 1932,
+                "eval_s": 29.598,
+                "load_s": 0.233,
+                "tokens_per_s": 65.27,
+                "error": null
+              },
+              "classify": {
+                "wall_s": 20.912,
+                "prompt_tokens": 830,
+                "eval_tokens": 1273,
+                "eval_s": 20.28,
+                "load_s": 0.203,
+                "tokens_per_s": 62.77,
+                "error": null,
+                "predicted": {
+                  "correspondent": "Musikschule Talgrund",
+                  "document_type": "Kontaktliste",
+                  "tags": [
+                    "bildung",
+                    "freizeit"
+                  ]
+                }
+              },
+              "metadata": {
+                "wall_s": 27.935,
+                "prompt_tokens": 351,
+                "eval_tokens": 1737,
+                "eval_s": 27.348,
+                "load_s": 0.221,
+                "tokens_per_s": 63.51,
+                "error": null,
+                "predicted": {
+                  "title": "Kontaktliste Blechbläsergruppe Mittwoch - Musikschule Talgrund",
+                  "created": "2026-08-12"
+                }
+              }
+            },
+            "scores": {
+              "ocr_check_correct": 1.0,
+              "cer": 0.1076388888888889,
+              "wer": 0.26,
+              "correspondent_correct": 1.0,
+              "document_type_correct": 1.0,
+              "tag_f1": 1.0,
+              "date_correct": 1.0,
+              "title_f1": 0.5
+            },
+            "failed": null
+          },
+          {
+            "doc_id": "d06",
+            "variant": "hand",
+            "handwriting": "echt",
+            "stages": {
+              "ocr_check": {
+                "wall_s": 23.802,
+                "prompt_tokens": 408,
+                "eval_tokens": 1539,
+                "eval_s": 23.278,
+                "load_s": 0.199,
+                "tokens_per_s": 66.11,
+                "error": null
+              },
+              "vision_ocr": {
+                "wall_s": 23.215,
+                "prompt_tokens": 2244,
+                "eval_tokens": 1228,
+                "eval_s": 18.719,
+                "load_s": 0.217,
+                "tokens_per_s": 65.6,
+                "error": null
+              },
+              "classify": {
+                "wall_s": 39.322,
+                "prompt_tokens": 773,
+                "eval_tokens": 2462,
+                "eval_s": 38.824,
+                "load_s": 0.184,
+                "tokens_per_s": 63.41,
+                "error": null,
+                "predicted": {
+                  "correspondent": null,
+                  "document_type": "Mahnung",
+                  "tags": [
+                    "finanzen"
+                  ]
+                }
+              },
+              "metadata": {
+                "wall_s": 29.738,
+                "prompt_tokens": 294,
+                "eval_tokens": 1914,
+                "eval_s": 29.22,
+                "load_s": 0.186,
+                "tokens_per_s": 65.5,
+                "error": null,
+                "predicted": {
+                  "title": "Mahnung überfälliger Forderungen",
+                  "created": "2026-06-30"
+                }
+              }
+            },
+            "scores": {
+              "ocr_check_correct": 1.0,
+              "cer": 0.3317972350230415,
+              "wer": 0.5,
+              "correspondent_correct": 0.0,
+              "document_type_correct": 1.0,
+              "tag_f1": 0.6666666666666666,
+              "date_correct": 1.0,
+              "title_f1": 0.3333333333333333
+            },
+            "failed": null
+          }
+        ]
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "model": "qwen3.8:27b",
+      "info": {
+        "family": "qwen35",
+        "parameter_size": "27.3B",
+        "quantization": "Q4_K_M",
+        "capabilities": [
+          "completion",
+          "vision",
+          "tools",
+          "thinking"
+        ]
+      },
+      "documents_total": 6,
+      "documents_ok": 6,
+      "documents_failed": 0,
+      "failures": [],
+      "accuracy": {
+        "ocr_check_correct": 1.0,
+        "cer_echte_handschrift": 0.2462,
+        "wer_echte_handschrift": 0.4488,
+        "cer_font": null,
+        "wer_font": null,
+        "correspondent_correct": 0.8333,
+        "document_type_correct": 0.8333,
+        "tag_f1": 0.8833,
+        "date_correct": 1.0,
+        "title_f1": 0.4156
+      },
+      "speed": {
+        "wall_s_per_document_mean": 182.51,
+        "total_wall_s": 1095.1,
+        "stages": {
+          "ocr_check": {
+            "calls": 6,
+            "wall_s_mean": 30.23,
+            "wall_s_median": 28.05,
+            "tokens_per_s_mean": 18.99,
+            "eval_tokens_mean": 497.5
+          },
+          "vision_ocr": {
+            "calls": 2,
+            "wall_s_mean": 31.34,
+            "wall_s_median": 31.34,
+            "tokens_per_s_mean": 14.41,
+            "eval_tokens_mean": 298.0
+          },
+          "classify": {
+            "calls": 6,
+            "wall_s_mean": 56.84,
+            "wall_s_median": 25.67,
+            "tokens_per_s_mean": 19.91,
+            "eval_tokens_mean": 487.3
+          },
+          "metadata": {
+            "calls": 6,
+            "wall_s_mean": 84.99,
+            "wall_s_median": 36.32,
+            "tokens_per_s_mean": 14.29,
+            "eval_tokens_mean": 442.5
+          }
+        }
+      }
+    },
+    {
+      "model": "qwen3.6:35b-a3b",
+      "info": {
+        "family": "qwen35moe",
+        "parameter_size": "36.0B",
+        "quantization": "Q4_K_M",
+        "capabilities": [
+          "completion",
+          "vision",
+          "tools",
+          "thinking"
+        ]
+      },
+      "documents_total": 6,
+      "documents_ok": 6,
+      "documents_failed": 0,
+      "failures": [],
+      "accuracy": {
+        "ocr_check_correct": 1.0,
+        "cer_echte_handschrift": 0.2197,
+        "wer_echte_handschrift": 0.38,
+        "cer_font": null,
+        "wer_font": null,
+        "correspondent_correct": 0.8333,
+        "document_type_correct": 0.8333,
+        "tag_f1": 0.8889,
+        "date_correct": 1.0,
+        "title_f1": 0.5926
+      },
+      "speed": {
+        "wall_s_per_document_mean": 73.12,
+        "total_wall_s": 438.8,
+        "stages": {
+          "ocr_check": {
+            "calls": 6,
+            "wall_s_mean": 20.78,
+            "wall_s_median": 22.09,
+            "tokens_per_s_mean": 66.72,
+            "eval_tokens_mean": 1347.3
+          },
+          "vision_ocr": {
+            "calls": 2,
+            "wall_s_mean": 28.69,
+            "wall_s_median": 28.69,
+            "tokens_per_s_mean": 65.44,
+            "eval_tokens_mean": 1580.0
+          },
+          "classify": {
+            "calls": 6,
+            "wall_s_mean": 23.75,
+            "wall_s_median": 22.42,
+            "tokens_per_s_mean": 65.4,
+            "eval_tokens_mean": 1507.7
+          },
+          "metadata": {
+            "calls": 6,
+            "wall_s_mean": 19.02,
+            "wall_s_median": 14.95,
+            "tokens_per_s_mean": 66.36,
+            "eval_tokens_mean": 1218.8
+          }
+        }
+      }
+    }
+  ]
+}

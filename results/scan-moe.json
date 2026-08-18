@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-08-18T13:00:49.520371+00:00",
+  "base_url": "http://mac-tkb.home.arpa:11434",
+  "repeats": 1,
+  "documents": [
+    "s01"
+  ],
+  "raw": [
+    {
+      "model": "qwen3.6:35b-a3b",
+      "info": {
+        "family": "qwen35moe",
+        "parameter_size": "36.0B",
+        "quantization": "Q4_K_M",
+        "capabilities": [
+          "completion",
+          "vision",
+          "tools",
+          "thinking"
+        ]
+      },
+      "repeats": 1,
+      "total_wall_s": 198.4,
+      "runs": [
+        [
+          {
+            "doc_id": "s01",
+            "variant": "scan",
+            "stages": {
+              "vision_ocr": {
+                "wall_s": 198.348,
+                "prompt_tokens": 2244,
+                "eval_tokens": 4732,
+                "eval_s": 193.624,
+                "load_s": 0.334,
+                "tokens_per_s": 24.44,
+                "error": null,
+                "predicted": "Ein LLM dazu zu bringen, eine Umrechnung\nals Umrechnung zu erkennen ist inzwischen der\neinfache Teil. Der schwierigere Teil beginnt\ndirekt danach: Soll der Browser als\n„Stadtwerke Regensburg“, „Stadtwerke Regensburg\nGmbH“ oder , SWM\" gespeichert werden?\nUnd was passiert, wenn der passende Korrespondent\nin Capabilities längst existiert, nur\nunter leicht anderer teilweise?"
+              }
+            },
+            "scores": {
+              "cer": 0.30406852248394006,
+              "wer": 0.3064516129032258
+            },
+            "failed": null
+          }
+        ]
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "model": "qwen3.6:35b-a3b",
+      "info": {
+        "family": "qwen35moe",
+        "parameter_size": "36.0B",
+        "quantization": "Q4_K_M",
+        "capabilities": [
+          "completion",
+          "vision",
+          "tools",
+          "thinking"
+        ]
+      },
+      "documents_total": 1,
+      "documents_ok": 1,
+      "documents_failed": 0,
+      "failures": [],
+      "accuracy": {
+        "ocr_check_correct": null,
+        "cer_synthetic": 0.3041,
+        "wer_synthetic": 0.3065,
+        "cer_scan": 0.3041,
+        "wer_scan": 0.3065,
+        "correspondent_correct": null,
+        "document_type_correct": null,
+        "tag_f1": null,
+        "date_correct": null,
+        "title_f1": null
+      },
+      "speed": {
+        "wall_s_per_document_mean": 0.0,
+        "total_wall_s": 198.4,
+        "stages": {
+          "vision_ocr": {
+            "calls": 1,
+            "wall_s_mean": 198.35,
+            "wall_s_median": 198.35,
+            "tokens_per_s_mean": 24.44,
+            "eval_tokens_mean": 4732.0
+          }
+        }
+      }
+    }
+  ]
+}
